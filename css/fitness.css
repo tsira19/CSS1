@@ -1,0 +1,17 @@
+body{
+    background-repeat: no-repeat;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(236, 255, 248);
+    text-decoration-color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.centered:nth-child(1){
+    background-color: black;
+    color: white;
+}
